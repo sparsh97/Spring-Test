@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    password: gtx@1050
+    url: jdbc:sqlserver://DESKTOP-HVKPE44;databaseName=department_db;integratedSecurity=true
+    username: sa
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.SQLServer2012Dialect
+    show-sql: true
+
